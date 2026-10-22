@@ -1,0 +1,38 @@
+body {
+    background-color: #700559; 
+    color: #d8b1c1;
+}
+img {
+    display: block;
+    margin: 50px auto;
+    border: 75px solid #37dddd;
+    padding:40px;
+}
+header {
+    display: block;
+    margin: 50px auto;
+    border: 75px solid #37dddd;
+    padding:40px;
+}
+section {
+    display: block;
+    margin: 50px auto;
+    border: 75px solid #37dddd;
+    padding:40px;
+}
+
+#page-title {
+    margin: 0 0 16px;
+     padding: 20px;
+     border-bottom: 15px solid #5037dd;
+}
+.content-card {
+    margin: 16px;
+    padding: 20px;
+    border: 7px solid #35d850;
+}
+p {
+    margin: 0 0 12px;
+    padding: 4px 0;
+    border-left: 8px solid #904aff;
+}
