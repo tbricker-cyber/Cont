@@ -36,7 +36,7 @@ p {
     padding: 4px 0;
     border-left: 8px solid #904aff;
 }
-img{
-    width="400" 
-    height="450" 
+.picture {
+    width: 200px;
+    height: 250px;
 }
