@@ -37,7 +37,7 @@ p {
 }
 
 .picture {
-    width: 200px;
+    width: 250px;
     max-width: 100%;
     height: auto;
 }
@@ -53,8 +53,14 @@ p {
 .container > p {
     flex-basis: 100%;
 }
-@media (min-width: 768px) {
+@media (min-width: 375px) {
     body {
-        background-color: rgb(144, 185, 197);
+        background-color: rgb(134, 98, 44);
+    }
+}
+
+@media (min-width: 1280px) {
+    body {
+        background-color: rgb(252, 220, 77);
     }
 }
