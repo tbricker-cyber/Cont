@@ -4,9 +4,9 @@ body {
 }
 img {
     display: block;
-    margin: 50px auto;
-    border: 25px solid #5b9191;
-    padding:40px;
+    margin: 20px auto;
+    border: 10px solid #5b9191;
+    padding: 10px;
 }
 header {
     display: block;
@@ -15,10 +15,9 @@ header {
     padding:20px;
 }
 section {
-    display: block;
     margin: 10px auto;
     border: 5px solid #5b9191;
-    padding:20px;
+    padding: 20px;
 }
 
 #page-title {
@@ -29,34 +28,31 @@ section {
 .content-card {
     margin: 6px;
     padding: 10px;
-    border: 7px solid #1b852d;
+    border: 7px solid #75cc83;
 }
 p {
     margin: 0 0 12px;
     padding: 4px 0;
     border-left: 8px solid #904aff;
 }
+
 .picture {
     width: 200px;
-    height: 250px;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    align-content: center;
-    gap: 6px;
+    max-width: 100%;
+    height: auto;
 }
 .container {
     display: flex;
-    flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    align-content: center;
-    gap: 6px;
+    gap: 16px;
 }
 
+.container > h2,
+.container > p {
+    flex-basis: 100%;
+}
 @media (min-width: 768px) {
     body {
         background-color: rgb(144, 185, 197);
