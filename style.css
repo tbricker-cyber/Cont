@@ -1,35 +1,35 @@
 body {
-    background-color: #700559; 
-    color: #d8b1c1;
+    background-color: #dfa1d1; 
+    color: #72133b;
 }
 img {
     display: block;
     margin: 50px auto;
-    border: 75px solid #37dddd;
+    border: 25px solid #5b9191;
     padding:40px;
 }
 header {
     display: block;
-    margin: 50px auto;
-    border: 75px solid #37dddd;
-    padding:40px;
+    margin: 30px auto;
+    border: 5px solid #5b9191;
+    padding:20px;
 }
 section {
     display: block;
-    margin: 50px auto;
-    border: 75px solid #37dddd;
-    padding:40px;
+    margin: 10px auto;
+    border: 5px solid #5b9191;
+    padding:20px;
 }
 
 #page-title {
-    margin: 0 0 16px;
-     padding: 20px;
-     border-bottom: 15px solid #5037dd;
+    margin: 0 0 6px;
+     padding: 10px;
+     border-bottom: 5px solid #5037dd;
 }
 .content-card {
-    margin: 16px;
-    padding: 20px;
-    border: 7px solid #35d850;
+    margin: 6px;
+    padding: 10px;
+    border: 7px solid #1b852d;
 }
 p {
     margin: 0 0 12px;
@@ -39,4 +39,26 @@ p {
 .picture {
     width: 200px;
     height: 250px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    gap: 6px;
+}
+.container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    gap: 6px;
+}
+
+@media (min-width: 768px) {
+    body {
+        background-color: rgb(144, 185, 197);
+    }
 }
